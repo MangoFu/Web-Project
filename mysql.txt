@@ -28,6 +28,7 @@ primary key(article_id)
 ) DEFAULT CHARSET=utf8;
 
 
+
 CREATE TABLE link(
 id int(11) not null auto_increment,
 url varchar(50) not null,

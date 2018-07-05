@@ -99,6 +99,7 @@ class AdminController extends Controller
 		$this->display('admin_articles');
 	}
 
+	
 	public function articlesMod()
 	{
 		global $config;

@@ -14,7 +14,6 @@ category_name varchar(50) not null unique key,
 primary key(category_id)
 ) DEFAULT CHARSET=utf8;
 
-
 CREATE TABLE article(
 article_id int(11) auto_increment,
 title varchar(50) not null,
@@ -26,8 +25,6 @@ category_id int(11) not null,
 author varchar(50) not null,
 primary key(article_id)
 ) DEFAULT CHARSET=utf8;
-
-
 
 CREATE TABLE link(
 id int(11) not null auto_increment,
